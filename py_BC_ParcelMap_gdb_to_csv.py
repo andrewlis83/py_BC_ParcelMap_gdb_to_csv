@@ -6,7 +6,7 @@ import zipfile
 import os
 
 # Set Path for input output
-f_path = str('Z:/shp_to_csv/')
+f_path = str('Z:/py_BC_ParcelMap_gdb_to_csv/')
 
 # URL to download
 dl_url = "https://pub.data.gov.bc.ca/datasets/4cf233c2-f020-4f7a-9b87-1923252fbc24/pmbc_parcel_fabric_poly_svw.zip"
@@ -26,5 +26,5 @@ with zipfile.ZipFile(zip_file_path, 'r') as zip_ref:
 gdf = gpd.read_file(str(f_path+'pmbc_parcel_fabric_poly_svw.gdb'))
 
 # Export the GeoDataFrame to a CSV file
-gdf.to_csv('gdb_as_csv.csv', index=False)
+gdf.to_csv(str(f_path+'gdb_as_csv.csv'), index=False)
 
