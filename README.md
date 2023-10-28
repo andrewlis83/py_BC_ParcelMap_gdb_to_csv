@@ -4,3 +4,5 @@ Quick python script to pull BC Parcel Map Fabric and export database as .csv fil
 Why?
 
 Because. That's why.
+
+Link to Parcel Map Data: https://catalogue.data.gov.bc.ca/dataset/parcelmap-bc-parcel-fabric
