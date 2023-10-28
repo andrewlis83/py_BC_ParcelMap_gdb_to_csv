@@ -5,4 +5,3 @@ Why?
 
 Because. That's why.
 
-Link to Parcel Map Data: https://catalogue.data.gov.bc.ca/dataset/parcelmap-bc-parcel-fabric
